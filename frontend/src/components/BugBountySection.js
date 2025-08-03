@@ -109,7 +109,7 @@ const BugBountySection = ({ data }) => {
 
           {selectedTab === 'cves' && (
             <div className="cves-section">
-              <div className="terminal-window">
+              <div className="terminal-window resizable-large">
                 <div className="terminal-header">
                   <div className="terminal-controls">
                     <div className="control red"></div>
