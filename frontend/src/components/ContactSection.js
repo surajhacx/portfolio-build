@@ -121,6 +121,20 @@ const ContactSection = ({ data }) => {
                           </Button>
                         </div>
                       </div>
+                      
+                      <div className="contact-method">
+                        <ExternalLink className="contact-icon" />
+                        <div className="contact-data">
+                          <span className="method-label">HackerOne:</span>
+                          <Button
+                            variant="link"
+                            className="contact-link"
+                            onClick={() => handleContactClick('hackerone', data.hackerone)}
+                          >
+                            View HackerOne Profile
+                          </Button>
+                        </div>
+                      </div>
                     </div>
                     
                     <div className="availability-status">
