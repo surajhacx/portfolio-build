@@ -1097,7 +1097,7 @@ section {
   animation: blink 1s infinite;
 }
 
-/* Animations */
+/* Animations - Updated with Gaming Effects */
 @keyframes blink {
   0%, 50% { opacity: 1; }
   51%, 100% { opacity: 0; }
@@ -1131,6 +1131,27 @@ section {
   0% { transform: scale(1); }
   50% { transform: scale(1.1); }
   100% { transform: scale(1); }
+}
+
+/* Gaming-Inspired Scrolling Background */
+@keyframes scrollBackground {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes parallaxFloat {
+  0% { transform: translateX(0) translateY(0) rotate(0deg); }
+  25% { transform: translateX(-10px) translateY(-5px) rotate(1deg); }
+  50% { transform: translateX(0) translateY(-10px) rotate(0deg); }
+  75% { transform: translateX(10px) translateY(-5px) rotate(-1deg); }
+  100% { transform: translateX(0) translateY(0) rotate(0deg); }
+}
+
+/* Knight Sword Hover Effects */
+@keyframes swordGlow {
+  0% { box-shadow: 0 0 5px rgba(0, 255, 65, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(0, 255, 65, 0.6), 0 0 30px rgba(0, 255, 65, 0.4); }
+  100% { box-shadow: 0 0 5px rgba(0, 255, 65, 0.3); }
 }
 
 /* Responsive Design */
