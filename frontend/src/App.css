@@ -1186,13 +1186,16 @@ section {
   transform: translateY(-2px) scale(1.05);
 }
 
-/* Enhanced Terminal Windows with Resizable Functionality */
+/* Enhanced Terminal Windows with Windows XP Dark Theme */
 .terminal-window {
   background: var(--terminal-card);
-  border: 2px solid var(--terminal-border);
-  border-radius: 8px;
+  border: 2px solid #333333;
+  border-radius: 0;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(0, 255, 65, 0.2);
+  box-shadow: 
+    inset 1px 1px 0 rgba(255, 255, 255, 0.1),
+    inset -1px -1px 0 rgba(0, 0, 0, 0.3),
+    0 4px 20px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
   resize: both;
   min-width: 300px;
@@ -1203,17 +1206,90 @@ section {
 
 .terminal-window:hover {
   border-color: var(--matrix-green);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 255, 65, 0.3);
+  box-shadow: 
+    inset 1px 1px 0 rgba(255, 255, 255, 0.1),
+    inset -1px -1px 0 rgba(0, 0, 0, 0.3),
+    0 8px 30px rgba(0, 0, 0, 0.7), 
+    0 0 20px rgba(0, 255, 65, 0.3);
+}
+
+/* Windows XP Style Terminal Header */
+.terminal-header {
+  background: linear-gradient(180deg, #2c2c2c 0%, #1a1a1a 100%);
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--terminal-border);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Windows XP Style Control Buttons */
+.terminal-controls {
+  display: flex;
+  gap: 4px;
+}
+
+.control {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.control.red { 
+  background: linear-gradient(135deg, #ff6b6b 0%, #cc5555 100%);
+  color: #fff;
+}
+
+.control.red:before { content: '×'; }
+
+.control.yellow { 
+  background: linear-gradient(135deg, #ffd93d 0%, #ccad00 100%);
+  color: #333;
+}
+
+.control.yellow:before { content: '−'; }
+
+.control.green { 
+  background: linear-gradient(135deg, #6bcf7f 0%, #55a865 100%);
+  color: #fff;
+}
+
+.control.green:before { content: '□'; }
+
+.control:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.terminal-title {
+  color: var(--text-primary);
+  font-size: 12px;
+  font-family: var(--font-mono);
+  font-weight: bold;
+  text-shadow: 0 0 5px var(--matrix-green-glow);
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
 }
 
 /* Resizable handle styling */
 .terminal-window::after {
-  content: '⋯⋮';
+  content: '';
   position: absolute;
-  bottom: 2px;
-  right: 2px;
-  color: var(--matrix-green);
-  font-size: 12px;
+  bottom: 0;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(-45deg, transparent 30%, #666 30%, #666 40%, transparent 40%, transparent 50%, #666 50%, #666 60%, transparent 60%);
   pointer-events: none;
   opacity: 0.6;
 }
