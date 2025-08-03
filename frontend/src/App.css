@@ -133,6 +133,7 @@ body {
   padding: 15px 0;
 }
 
+/* Terminal Prompt - Updated Hacx Style */
 .terminal-prompt {
   display: flex;
   align-items: center;
@@ -147,31 +148,12 @@ body {
 
 .prompt-text {
   font-weight: bold;
+  color: var(--matrix-green);
 }
 
-.terminal-nav {
-  display: flex;
-  gap: 20px;
-}
-
-.nav-command {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: transparent;
-  border: none;
-  color: var(--text-secondary);
-  font-family: var(--font-mono);
-  cursor: pointer;
-  padding: 8px 12px;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-}
-
-.nav-command:hover {
-  color: var(--text-primary);
-  background: rgba(0, 255, 65, 0.1);
-  transform: translateY(-2px);
+.prompt {
+  color: var(--matrix-green);
+  font-weight: bold;
 }
 
 /* Terminal Windows */
