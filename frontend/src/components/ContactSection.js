@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Mail, Linkedin, Shield, Code, Search, Zap } from "lucide-react";
+import { Mail, Linkedin, Shield, Code, Search, Zap, ExternalLink } from "lucide-react";
 import { Button } from "./ui/button";
 import { toast } from "../hooks/use-toast";
 
