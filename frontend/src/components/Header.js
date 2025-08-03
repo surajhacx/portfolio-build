@@ -25,7 +25,7 @@ const Header = () => {
         <div className="header-content">
           <div className="terminal-prompt">
             <Terminal className="terminal-icon" />
-            <span className="prompt-text">root@suraj:~$</span>
+            <span className="prompt-text">┌──(root@hacx)-[~🐉]<br/>└─$</span>
           </div>
           
           <nav className="terminal-nav">
