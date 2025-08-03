@@ -38,11 +38,11 @@ const ContactSection = ({ data }) => {
         title: "Email Client Opening",
         description: "Your default email client should open now.",
       });
-    } else if (type === 'linkedin') {
+    } else if (type === 'linkedin' || type === 'hackerone') {
       window.open(value, '_blank');
       toast({
-        title: "LinkedIn Opening",
-        description: "Opening LinkedIn profile in new tab.",
+        title: type === 'linkedin' ? "LinkedIn Opening" : "HackerOne Opening",
+        description: `Opening ${type === 'linkedin' ? 'LinkedIn' : 'HackerOne'} profile in new tab.`,
       });
     }
   };
