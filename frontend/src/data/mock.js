@@ -14,13 +14,13 @@ export const mockData = {
     description: "Highly accomplished cybersecurity professional with a passion for ethical hacking and bug hunting. With a proven track record of identifying and exploiting vulnerabilities in prominent platforms, I have established myself as a leader in the field, consistently delivering outstanding results.",
     skills: [
       "Network Penetration Testing",
-      "Mobile Penetration Testing", 
-      "Vulnerability Assessment (VA)",
-      "Windows Application Security",
-      "API Security Testing",
-      "Source Code Review",
-      "Cloud Penetration Testing",
-      "Ethical Hacking"
+      "API Penetration Testing", 
+      "Web Application Penetration Testing",
+      "Windows Application Penetration Testing",
+      "Red Teaming",
+      "Wireless Penetration Testing",
+      "Mobile Application Penetration Testing",
+      "Vulnerability Assessments"
     ]
   },
   
