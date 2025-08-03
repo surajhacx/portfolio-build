@@ -74,7 +74,10 @@ const HeroSection = ({ data }) => {
               </div>
               
               <div className="command-line">
-                <span className="prompt">root@cybersec:~$</span>
+                <span className="prompt">┌──(root@hacx)-[~🐉]</span>
+              </div>
+              <div className="command-line">
+                <span className="prompt">└─$</span>
                 <span className="command">cat achievements.txt</span>
               </div>
               
