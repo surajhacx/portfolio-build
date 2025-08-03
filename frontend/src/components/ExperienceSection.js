@@ -37,9 +37,9 @@ const ExperienceSection = ({ data }) => {
       <div className="container">
         <div className="section-header">
           <div className="terminal-command">
-            <span className="prompt">┌──(root@hacx)-[~🐉]</span>
+            <span className="prompt">┌──(root@hacx)-[~/]</span>
             <br/>
-            <span className="prompt">└─$</span>
+            <span className="prompt">└─#</span>
             <span className="command">ls -la experience/</span>
           </div>
         </div>
