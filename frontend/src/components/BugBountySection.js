@@ -121,7 +121,10 @@ const BugBountySection = ({ data }) => {
                 
                 <div className="terminal-body">
                   <div className="command-line">
-                    <span className="prompt">root@cybersec:~$</span>
+                    <span className="prompt">┌──(root@hacx)-[~/]</span>
+                  </div>
+                  <div className="command-line">
+                    <span className="prompt">└─#</span>
                     <span className="command">tail -f /var/log/cve_discoveries.log</span>
                   </div>
                   
