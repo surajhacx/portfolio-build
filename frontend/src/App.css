@@ -156,7 +156,31 @@ body {
   font-weight: bold;
 }
 
-/* Terminal Windows */
+.terminal-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-command {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="%2300ff41"><path d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>'), pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-command:hover {
+  color: var(--text-primary);
+  background: rgba(0, 255, 65, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 255, 65, 0.2);
+}
 .terminal-window {
   background: var(--terminal-card);
   border: 1px solid var(--terminal-border);
