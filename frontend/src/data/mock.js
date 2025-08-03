@@ -101,14 +101,22 @@ export const mockData = {
     ],
     cves: [
       {
-        id: "CVE-2024-34452",
-        description: "Critical vulnerability discovered in enterprise software",
-        year: "2024"
+        id: "CVE-2024-48605",
+        title: "Helakuru DLL Injection Vulnerability",
+        description: "Helakuru application vulnerable to DLL injection attacks allowing local privilege escalation",
+        year: "2024",
+        cvss: "7.8",
+        severity: "High",
+        url: "https://nvd.nist.gov/vuln/detail/CVE-2024-48605"
       },
       {
-        id: "CVE-2024-48605", 
-        description: "High severity vulnerability in web application framework",
-        year: "2024"
+        id: "CVE-2024-34452", 
+        title: "CMSimple_XH XSS via SVG Upload",
+        description: "CMSimple_XH 1.7.6 allows XSS by uploading a crafted SVG document",
+        year: "2024",
+        cvss: "6.1",
+        severity: "Medium",
+        url: "https://nvd.nist.gov/vuln/detail/CVE-2024-34452"
       }
     ]
   },
