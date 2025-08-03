@@ -67,7 +67,7 @@ const ExperienceSection = ({ data }) => {
             </div>
 
             <div className="experience-details">
-              <div className="terminal-window">
+              <div className="terminal-window resizable-large">
                 <div className="terminal-header">
                   <div className="terminal-controls">
                     <div className="control red"></div>
