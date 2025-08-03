@@ -101,7 +101,10 @@ const AboutSection = ({ data }) => {
                 
                 <div className="terminal-body">
                   <div className="command-line">
-                    <span className="prompt">root@cybersec:~$</span>
+                    <span className="prompt">┌──(root@hacx)-[~/]</span>
+                  </div>
+                  <div className="command-line">
+                    <span className="prompt">└─#</span>
                     <span className="command">./list_skills.sh</span>
                   </div>
                   
