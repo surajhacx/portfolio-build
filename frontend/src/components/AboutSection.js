@@ -89,7 +89,7 @@ const AboutSection = ({ data }) => {
             </div>
 
             <div className="skills-terminal">
-              <div className="terminal-window">
+              <div className="terminal-window resizable-medium">
                 <div className="terminal-header">
                   <div className="terminal-controls">
                     <div className="control red"></div>
