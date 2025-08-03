@@ -192,7 +192,10 @@ const ContactSection = ({ data }) => {
                   
                   <div className="hire-cta">
                     <div className="command-line">
-                      <span className="prompt">root@cybersec:~$</span>
+                      <span className="prompt">┌──(root@hacx)-[~/]</span>
+                    </div>
+                    <div className="command-line">
+                      <span className="prompt">└─#</span>
                       <span className="command">echo "Ready to secure your systems?"</span>
                     </div>
                     <div className="cta-output">
