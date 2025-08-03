@@ -192,6 +192,19 @@ const ContactSection = ({ data }) => {
                     <div className="cta-output">
                       <span className="cta-text">Ready to secure your systems?</span>
                     </div>
+                    
+                    <div className="acknowledgments-note">
+                      <div className="command-line">
+                        <span className="prompt">┌──(root@hacx)-[~/]</span>
+                      </div>
+                      <div className="command-line">
+                        <span className="prompt">└─#</span>
+                        <span className="command">ls ./acknowledgments/</span>
+                      </div>
+                      <div className="ack-output">
+                        <span className="ack-text">{data.acknowledgments}</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
