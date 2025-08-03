@@ -59,7 +59,9 @@ const ContactSection = ({ data }) => {
       <div className="container">
         <div className="section-header">
           <div className="terminal-command">
-            <span className="prompt">root@cybersec:~$</span>
+            <span className="prompt">┌──(root@hacx)-[~🐉]</span>
+            <br/>
+            <span className="prompt">└─$</span>
             <span className="command">./contact_suraj.sh --hire</span>
           </div>
         </div>
