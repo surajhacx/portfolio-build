@@ -26,7 +26,7 @@ const Header = () => {
           <div className="terminal-prompt">
             <Terminal className="terminal-icon" />
             <div className="prompt-text">
-              <div>┌──(root@hacx)-[~🐉]</div>
+              <div>┌──(root@hacx)-[~/]</div>
               <div>└─#</div>
             </div>
           </div>
