@@ -43,7 +43,7 @@ const HeroSection = ({ data }) => {
             
             <div className="terminal-body">
               <div className="command-line">
-                <span className="prompt">root@cybersec:~$</span>
+                <span className="prompt">┌──(root@hacx)-[~🐉]<br/>└─$</span>
                 <span className="command">whoami</span>
               </div>
               
