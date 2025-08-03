@@ -45,7 +45,9 @@ const BugBountySection = ({ data }) => {
       <div className="container">
         <div className="section-header">
           <div className="terminal-command">
-            <span className="prompt">root@cybersec:~$</span>
+            <span className="prompt">┌──(root@hacx)-[~🐉]</span>
+            <br/>
+            <span className="prompt">└─$</span>
             <span className="command">grep -r "VULNERABILITY_FOUND" ./reports/</span>
           </div>
         </div>
