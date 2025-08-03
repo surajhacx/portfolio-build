@@ -1060,6 +1060,28 @@ section {
   font-weight: bold;
 }
 
+/* Acknowledgments Section Styling */
+.acknowledgments-note {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid var(--terminal-border);
+}
+
+.ack-output {
+  margin: 10px 0;
+  padding: 15px;
+  background: rgba(0, 255, 65, 0.05);
+  border-left: 3px solid var(--matrix-green);
+  border-radius: 4px;
+}
+
+.ack-text {
+  color: var(--text-secondary);
+  font-style: italic;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
 /* Footer */
 .terminal-footer {
   background: var(--terminal-bg);
