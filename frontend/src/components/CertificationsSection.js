@@ -63,7 +63,10 @@ const CertificationsSection = ({ data }) => {
                   
                   <div className="terminal-body">
                     <div className="command-line">
-                      <span className="prompt">root@cybersec:~$</span>
+                      <span className="prompt">┌──(root@hacx)-[~/]</span>
+                    </div>
+                    <div className="command-line">
+                      <span className="prompt">└─#</span>
                       <span className="command">openssl x509 -in {cert.name.toLowerCase().replace(/\+/g, 'plus').replace(/\s+/g, '_')}.cert -text</span>
                     </div>
                     
