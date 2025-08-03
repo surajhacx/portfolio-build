@@ -116,6 +116,7 @@ export const mockData = {
   contact: {
     email: "surajtheekshanahackerone@gmail.com",
     linkedin: "https://www.linkedin.com/in/suraj-theekshana-10171023a/",
+    hackerone: "https://hackerone.com/surajtheekshana",
     services: [
       "Penetration Testing",
       "Bug Bounty Hunting", 
@@ -123,6 +124,7 @@ export const mockData = {
       "Vulnerability Assessment",
       "Security Code Review",
       "Red Team Operations"
-    ]
+    ],
+    acknowledgments: "Bug bounty acknowledgment letters and certifications available upon request"
   }
 };
